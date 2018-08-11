@@ -1,0 +1,110 @@
+/*-------- Skills --------*/
+.skills{
+    margin-bottom: 20em;
+
+    text-align: center;
+}
+
+.skills p{
+    margin-bottom: 30px;
+}
+
+.skills img{
+    width : 40px;
+    margin: 0 15px;
+}
+
+/*-------- Work 01 and 02 --------*/
+.work a, .work2 a{
+    text-decoration: none;
+}
+
+
+
+/*-------- Work 01 --------*/
+.work, .work2{
+    position: relative;
+
+    width: 100%;
+    margin-bottom: 20em;
+    /* background-color: red; */
+}
+
+.work > .workText{
+    position: absolute;
+    top: 85px;
+}
+
+.work > .workText > .underline{
+    display: block;
+
+    width: 61px;
+    height: 3px;
+    margin-top: 5px;
+
+    background-color: #027BFF;
+}
+
+.work > .workImg{
+    float: right;
+
+    width: 85%;
+
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+
+}
+
+.work ul{
+    position: absolute;
+    right: 86%;
+    bottom: 0;
+}
+
+.work ul li{
+    margin-top: 20px;
+}
+
+
+/*-------- Work 02 --------*/
+.work2 > .workText{
+    position: absolute;
+    top:85px;
+    right:0;
+
+    text-align: right;
+
+}
+
+.work2 > .workText > .underline{
+    display: block;
+    float: right;
+
+    width: 61px;
+    height: 3px;
+    margin-top: 5px;
+
+    background-color: #027BFF;
+}
+
+.work2 > .workImg{
+    float:left;
+
+    width:85%;
+
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+
+}
+
+.work2 ul{
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+
+.work2 ul li{
+    margin-top: 20px;
+}
