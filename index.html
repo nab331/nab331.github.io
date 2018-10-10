@@ -4,135 +4,81 @@
     <title>Nabeel Jawahir</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myscript.js"></script>
 </head>
+
+
+
+
+
 <body>
+    <img src="images/bg.png" class="bgimage" alt="Snow">
     <div class="page1">
 
         <div class="nav">
-            <div class="contactMe">
-                <a href="#"> <img src="images/Chat_Blue.png" alt="chat logo">Contact Me</a>
+            <div class="navLogo">
+                <a href="index.html">NabeelJawahir</a>
 
             </div>
-            <div class="navIcons">
-                <a href="#"> <img src="images/Youtube_Gray.png" alt="youtube logo"></a>
-                <a href="#"> <img src="images/Be_Gray.png" alt="behance logo"></a>
-                <a href="#"> <img src="images/Dribbble_Gray.png" alt="dribbble logo"></a>
+            <div class="navLinks">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#">About</a>
+                <a href="#">Resume</a>
+                <a href="#contactMe">Contact</a>
             </div>
         </div>
 
-        <div class="line1">
-        </div>
 
-        <div class="landingWrapper center">
-            <h1>Nabeel Jawahir</h1>
-            <p>Hello, my name is Nabeel Jawahir. I am a UI/UX <br>designer &amp; <span class="blue">Product Designer.</span></p>
+        <div class="landingWrapper">
+            <h1 class="landingHeading">Nabeel Jawahir</h1>
+            <p class="landingText">Hello, I'm a product designer and a third year IT student at Indian Institute of Information Technology, Allahabad</p>
+            <div class="landingLinks">
+                <a href="https://dribbble.com/nab331" target="_blank">DRIBBBLE</a>
+                <a href="https://www.behance.net/mnabeeljawa320" target="_blank" >BEHANCE</a>
+                <a href="https://github.com/nab331" target="_blank" >GITHUB</a>
+                <a href="https://www.linkedin.com/in/nab331/" target="_blank" >LINKEDIN</a>
 
-        </div>
-
-        <div class="line2">
-        </div>
-
-
-        <!-- <img src="images/Scroll.png" alt="scroll down" class="scroll"> -->
-    </div>
-
-<!--
-    <div class="skills">
-        <h2>Skills</h2>
-        <p>Over 7 years of design experience using<br>these programs.</p>
-        <div class="programs">
-            <img src="images/Xd.png" alt="XD icon">
-            <img src="images/Ps.png" alt="Ps icon">
-            <img src="images/Ai.png" alt="Ai icon">
-            <img src="images/Ae.png" alt="Ae icon">
-
-
+            </div>
         </div>
     </div>
 
-    <div class="work clearfix">
-        <div class="workText">
-            <h1>Apple Store</h1>
-            <a href="#"><h5>View Project</h5></a>
-            <div class="underline"></div>
-        </div>
 
-        <ul>
-            <li> <a href="#"> <img src="images/Dribbble_Black.png" alt="dribble icon"> </a> </li>
-            <li> <a href="#"> <img src="images/Be_Black.png" alt="behance icon"> </a> </li>
-            <li> <a href="#"> <img src="images/Youtube_Black.png" alt="youtube icon"> </a> </li>
-        </ul>
-        <img src="images/project2.png" alt="project image" class="workImg">
+    <div class="portfolio" id="portfolio">
+
+
+
+        <a href="index.html" class="project project1 shadow2" >
+            <!-- <h1 class="projectText rotate">Hello</h1> -->
+            <div class="projectContent">
+                <div class="projectHeading">Project Title 1</div>
+                <div class="projectType">Branding/UX/Development</div>
+                <div class="projectDetails">This project is about A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development.</div>
+                <!-- <a href="#" class="readMore">Read More</a> -->
+            </div>
+        </a>
+
+        <a href="index.html" class="project project2 shadow2" a href="#">
+            <!-- <h1 class="projectText rotate">Hello</h1> -->
+            <div class="projectContent">
+                <div class="projectHeading">Project Title 2</div>
+                <div class="projectType">UX/Development</div>
+                <div class="projectDetails">This project is about A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development.</div>
+                <!-- <a href="#" class="readMore">Read More</a> -->
+            </div>
+        </a>
 
     </div>
-    <div class="work2 clearfix">
-        <div class="workText">
-            <h1>Apple Store</h1>
-            <a href="#"><h5>View Project</h5></a>
-            <div class="underline"></div>
+
+    <div class="contactMe" id="contactMe">
+        <div class="contactContent center">
+            <div class="contactTitle">Contact Me</div>
+
+            <a href="mailto:mnabeeljawahir@gmail.com" >mnabeeljawahir@gmail.com</a>
+            <a href="https://www.linkedin.com/in/nab331/" target="_blank">in/nab331</a>
+
         </div>
-
-        <ul>
-            <li> <a href="#"> <img src="images/Dribbble_Black.png" alt="dribble icon"> </a> </li>
-            <li> <a href="#"> <img src="images/Be_Black.png" alt="behance icon"> </a> </li>
-            <li> <a href="#"> <img src="images/Youtube_Black.png" alt="youtube icon"> </a> </li>
-        </ul>
-        <img src="images/project1.png" alt="project image" class="workImg">
-    </div> -->
-
-    <div class="portfolio">
-
-        <div class="project project1 clearfix">
-            <!-- <h1 class="projectText rotate">Hello</h1> -->
-            <div class="projectContent center">
-                <h1 class="projectHeading">The Nu School</h1>
-                <h5 class="projectDetails">A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development</h5>
-
-
-                <div class="category">Mobile App</div>
-                <div class="category">iPhone Development</div>
-                <div class="category">Marketing</div>
-                <br>
-                <br>
-                <a href="#" class="weblink category">Download for iPhone</a>
-            </div>
-        </div>
-
-        <div class="project project2 clearfix">
-            <!-- <h1 class="projectText rotate">Hello</h1> -->
-            <div class="projectContent center">
-                <h1>The ABC</h1>
-                <h5 class="projectDetails">A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development</h5>
-
-
-                <div class="category">Mobile App</div>
-                <div class="category">iPhone Development</div>
-                <div class="category">Marketing</div>
-                <br>
-                <br>
-                <a href="#" class="category weblink">Download for iPhone</a>
-
-            </div>
-        </div>
-
-        <div class="project project3 clearfix">
-            <!-- <h1 class="projectText rotate">Hello</h1> -->
-            <div class="projectContent center">
-                <h1>The ABC</h1>
-                <h5 class="projectDetails">A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development</h5>
-
-
-                <div class="category">Mobile App</div>
-                <div class="category">iPhone Development</div>
-                <div class="category">Marketing</div>
-                <br>
-                <br>
-                <a href="#" class="category weblink">Download for iPhone</a>
-
-            </div>
-        </div>
-
     </div>
 
 

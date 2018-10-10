@@ -1,0 +1,17 @@
+:root {
+    --p1-color: #ff5b5b;
+    --p2-color:#3465f7;
+
+    --primcol: #393939;
+    --seccol: #707070;
+    --tercol: #C5C5C5;
+    --quadcol: #F5F5F5;
+}
+
+.white{
+    color: white;
+}
+
+.dark{
+    color:#17191A;
+}ss
