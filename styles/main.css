@@ -167,7 +167,6 @@ b{
     margin-left:auto;
     display:none;
     cursor: pointer;
-    margin-right: 30px;
     text-align: right;
 
 }
@@ -514,7 +513,7 @@ a{
     }
 
     .landingWrapper{
-        top:5%;
+        top:15%;
         width: 100%;
     }
     .landingHeading{
@@ -532,7 +531,7 @@ a{
     }
 
     .landingLinks a{
-        margin-top: 8px;
+        margin-top: 15px;
     }
 
     .project > .projectContent{
