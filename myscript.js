@@ -51,7 +51,12 @@ $(document).ready(function() {
 
 ///NAV TOGGLE
 function NavToggle(x) {
-    x.classList.toggle("change");
-    // x.classList.toggle("overlay");
+    document.getElementById("hamburger").classList.toggle("change");
+    if($('#myNav').css('display') == 'none'){
+       $('#myNav').show();
+    } else {
+       $('#myNav').hide();
+    }
+
 
 }

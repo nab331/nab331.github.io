@@ -163,8 +163,9 @@ b{
 }
 
 .hamburger {
-    margin-right:0;
-    margin-left:auto;
+    position: fixed;
+    z-index:3;
+    right:10%;
     display:none;
     cursor: pointer;
     text-align: right;
@@ -191,11 +192,6 @@ b{
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: red;
-}
 
 /*-------- Landing --------*/
 .page1{
@@ -494,6 +490,50 @@ a{
     transition: ease .5s;
 }
 
+
+
+/* --------overlay---------- */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--tercol);
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: var(--primcol);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
 
 /* ------- Responsive ------- */
 @media only screen and (max-width: 600px){
