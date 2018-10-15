@@ -1,0 +1,137 @@
+.pageMargin{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.row{
+
+    width:99%;
+    margin: auto;
+    align:center;
+    /* display: inline-block; */
+    margin-top: 40px;
+    position: relative;
+
+
+}
+
+.imagerow{
+
+    width:99%;
+    margin: auto;
+    align:center;
+    /* display: block; */
+    margin-top: 30px;
+    position: relative;
+
+
+}
+
+
+.padded{
+    padding: 1%;
+    size:auto;
+}
+
+
+.col33{
+    width:33.33%;
+}
+
+.col30{
+    width:30%;
+}
+
+.col50{
+    width:50%;
+}
+
+.col25{
+    width:25%;
+}
+
+.col{
+    float: left;
+    margin: auto;
+    display: inline-block;
+    /* width:100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projectHeading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--seccol);
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--seccol);
+}
+.text{
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--seccol);
+}
+
+
+
+.projectImg{
+    width: 100%;
+    margin: auto;
+}
+
+.wireframe{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.wireframe > img{
+    padding-right: 2%;
+    /* display: block; */
+    margin: auto;
+    margin-bottom: 10px;
+    /* height: 60vh;
+    width: auto; */
+}
+
+
+.fullimage{
+
+
+
+        width:125%;
+        margin-left: -12.5%;
+        /* margin-right: -12%; */
+        /* margin-right: -11%; */
+}
+
+@media only screen and (max-width: 600px){
+    .col{
+        width: 100%;
+    }
+
+    .wireframe img{
+        width: 60vw;
+    }
+
+
+}

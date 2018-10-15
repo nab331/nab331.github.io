@@ -18,7 +18,18 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('body, html').animate({scrollTop: pos});
 });
 
-var speed = 'slow';
+
+
+
+//
+//z
+//
+//
+//
+//
+//
+//
+var speed = 'fast';
 
 $('html, body').hide();
 
@@ -34,3 +45,13 @@ $(document).ready(function() {
         });
     });
 });
+
+
+
+
+///NAV TOGGLE
+function NavToggle(x) {
+    x.classList.toggle("change");
+    // x.classList.toggle("overlay");
+
+}
