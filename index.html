@@ -13,14 +13,14 @@
 
 
 
-<body>
+<body class="">
 
     <div id="myNav" class="overlay">
         <div class="overlay-content">
             <a href="#portfolio" onclick="NavToggle(this)">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Resume</a>
-            <a href="#contactMe">Contact</a>
+            <a href="#" onclick="NavToggle(this)">About</a>
+            <a href="#" onclick="NavToggle(this)">Resume</a>
+            <a href="#contactMe" onclick="NavToggle(this)">Contact</a>
         </div>
     </div>
 
@@ -64,7 +64,9 @@
     </div>
 
 
-    <div class="portfolio" id="portfolio">
+    <div class="portfolio mountainbg" id="portfolio">
+
+
 
 
 
@@ -88,9 +90,19 @@
             </div>
         </a>
 
+        <a href="blog.html" class="project project3 shadow2" a href="#">
+            <!-- <h1 class="projectText rotate">Hello</h1> -->
+            <div class="projectContent">
+                <div class="projectHeading">Project Title 3</div>
+                <div class="projectType">Development</div>
+                <div class="projectDetails">This project is about A daily inspiration app that I have developed as a side project to experiment with the whole process of app creation from concept to development.</div>
+                <!-- <a href="#" class="readMore">Read More</a> -->
+            </div>
+        </a>
+
     </div>
 
-    <div class="contactMe" id="contactMe">
+    <div class="contactMe shadow2" id="contactMe">
         <div class="contactContent center">
             <div class="contactTitle">Contact Me</div>
 
@@ -99,6 +111,7 @@
 
         </div>
     </div>
+
 
 
 </body>

@@ -1,5 +1,6 @@
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
+    console.log(document.location.href.match(/[^\/]+$/)[0]);
     var id = $(this).attr('href');
 
     // target element

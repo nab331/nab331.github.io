@@ -1,6 +1,8 @@
 :root {
-    --p1-color: #ff5b5b;
-    --p2-color:#3465f7;
+
+    --p1-color:rgba(52, 101, 247, 0.97);
+    --p2-color: rgba(255, 91, 91, 0.97);
+    --p3-color: rgba(255, 174, 0, 0.97);
 
     --primcol: #393939;
     --seccol: #707070;
