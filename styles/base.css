@@ -1,8 +1,10 @@
 :root {
 
-    --p1-color:rgba(52, 101, 247, 0.97);
+    --washr-color: #ff860b;
     --p2-color: rgba(255, 91, 91, 0.97);
-    --p3-color: rgba(255, 174, 0, 0.97);
+    --p3-color:rgba(52, 101, 247, 0.97);
+
+
 
     --primcol: #393939;
     --seccol: #707070;
@@ -17,3 +19,10 @@
 .dark{
     color:#17191A;
 }ss
+
+
+.hcenter{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

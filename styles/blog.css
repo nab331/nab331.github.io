@@ -1,7 +1,17 @@
 .pageMargin{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
+}
+
+
+
+ul{
+    margin-left: 2%;
+}
+
+b{
+    font-weight: 500;
 }
 
 .row{
@@ -10,20 +20,39 @@
     margin: auto;
     align:center;
     /* display: inline-block; */
-    margin-top: 60px;
+    margin-top: 80px;
+    position: relative;
+}
+
+
+.tinyrow{
+
+    width:99%;
+    margin: auto;
+    align:center;
+    /* display: inline-block; */
+    margin-top: 40px;
     position: relative;
 }
 
 .imagerow{
 
-    width:99%;
-    margin: auto;
-    align:center;
-    /* display: block; */
-    margin-top: 30px;
+    /* width:99%; */
+    text-align: center;
+    margin-top: 60px;
     position: relative;
+    display: table;
 
 
+}
+
+.research > .imgcol{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.imgcol > li{
+    color: red;
 }
 
 
@@ -34,7 +63,8 @@
 
 
 .col33{
-    width:33.33%;
+    width:32%;
+    /* text-align: center; */
 }
 
 .col30{
@@ -43,20 +73,34 @@
 
 .col50{
     width:50%;
+    /* text-align: center; */
 }
 
 .col25{
     width:25%;
 }
 
-.col{
-    float: left;
-    margin: auto;
-    display: inline-block;
-    /* width:100%; */
-    /* margin-top: 20px; */
+.col20{
+    width:18%;
 }
 
+.col9{
+    width:11%;
+}
+
+.col{
+    float: left;
+    display: inline-block;
+    position: relative;
+    /* width:100%; */
+    /* margin-top: 20px; */
+
+}
+
+.imgcol{
+    display: inline-block;
+    padding: 0px 10px 20px 10px;
+}
 
 
 .row:after{
@@ -80,9 +124,19 @@
     font-weight: 600;
     color: var(--seccol);
 }
+
+.subsection {
+    margin-left: 5%;
+}
+
+.subsection > .heading{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
 .text{
-    margin-top: 5px;
-    line-height: 25px;
+    margin-top: 10px;
+    line-height: 28px;
     font-size: 18px;
     font-weight: 400;
     color: var(--seccol);
@@ -92,12 +146,13 @@
 
 .projectImg{
     width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wireframe{
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     padding: 1%;
 }
@@ -107,23 +162,32 @@
     /* display: block; */
     margin: auto;
     margin-bottom: 10px;
+    display: inline;
     /* height: 60vh;
     width: auto; */
 }
 
+.contactMe{
+
+    margin-bottom: 50px;
+}
 
 .fullimage{
 
 
 
-        width:125%;
-        margin-left: -12.5%;
+        width:142.8%;
+        margin-left: -21.5%;
         /* margin-right: -12%; */
         /* margin-right: -11%; */
 }
 
 @media only screen and (max-width: 600px){
     .col{
+        width: 100%;
+    }
+
+    .imgcol{
         width: 100%;
     }
 

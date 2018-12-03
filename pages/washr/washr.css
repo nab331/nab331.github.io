@@ -1,0 +1,54 @@
+
+
+a:hover{
+    color: var(--washr-color);
+}
+
+
+.heading{
+    color: var(--washr-color);
+}
+
+
+.subsection > .projectImg{
+    margin-top: 0px;;
+}
+
+
+#oldman{
+    height: 200px;
+    width: auto;
+
+
+}
+
+#userpersona{
+
+
+    /* float: left; */
+    /* height: 200px; */
+    width: 100%;
+}
+
+
+
+.divider{
+    margin-top: 80px;
+    height: 5px;
+    background-color: var(--washr-color);
+    transition: ease 0.5s;
+}
+
+
+#visualdes{
+    width: 70%;
+    left: 50%;
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+}
+
+
+#marvelapp{
+    height: 90vh;
+}
