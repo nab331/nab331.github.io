@@ -4,6 +4,9 @@ a:hover{
     color: var(--washr-color);
 }
 
+.contactContent a:hover{
+    color: var(--washr-color);
+}
 
 .heading{
     color: var(--washr-color);
