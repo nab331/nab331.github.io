@@ -1,6 +1,11 @@
 :root {
 
     --washr-color: #ff860b;
+
+    --hint-color1: #715EFF;
+    --hint-color2: #FF6C56;
+    --hint-color3: #FFDB2E;
+
     --dailyui-color: #ac00a7;
     --p2-color: rgba(255, 91, 91);
 

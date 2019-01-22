@@ -62,7 +62,7 @@ a:hover{
   position: relative;
   display: table-cell;
   vertical-align: top;
-  padding: 5px;
+  /* padding: 50px; */
 }
 
 .image2 {
@@ -85,7 +85,7 @@ a:hover{
 }
 
 .container2:hover .overlay2 {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .text2 {
@@ -99,4 +99,59 @@ a:hover{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+
+
+
+.rowgal {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+}
+
+/* Create four equal columns that sits next to each other */
+.columngal {
+    -ms-flex: 33%;
+        flex: 33%;
+        max-width: 33%;
+    /* padding: 0 4px; */
+}
+
+.columngal img {
+    /* margin-top: 8px; */
+    vertical-align: middle;
+    padding: 10px;
+    transition: ease 0.5s;
+
+    /* -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.06); */
+}
+
+.columngal img:hover {
+    padding: 0px;
+
+
+
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.columngal img:active{
+    transform: scale(2);
+
+}
+
+@media only screen and (max-width: 600px){
+    .columngal {
+        -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        /* padding: 0 4px; */
+    }
+
 }

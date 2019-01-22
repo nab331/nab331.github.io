@@ -1,0 +1,56 @@
+
+
+a:hover{
+    color: var(--hint-color1);
+}
+
+.contactContent a:hover{
+    color: var(--hint-color1);
+}
+
+.heading{
+    color: var(--hint-color1);
+}
+
+
+.subsection > .projectImg{
+    margin-top: 0px;;
+}
+
+
+#oldman{
+    height: 200px;
+    width: auto;
+
+
+}
+
+#userpersona{
+
+
+    /* float: left; */
+    /* height: 200px; */
+    width: 100%;
+}
+
+
+
+.divider{
+    margin-top: 80px;
+    height: 5px;
+    background-color: var(--hint-color1);
+    transition: ease 0.5s;
+}
+
+
+#website > .heading, #website > .subsection > .row > .heading{
+    color: var(--hint-color2);
+}
+
+
+
+#userpersona{
+
+    margin-top: 0px;
+
+}

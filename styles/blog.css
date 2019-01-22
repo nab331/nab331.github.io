@@ -16,7 +16,7 @@ b{
 
 .row{
 
-    width:99%;
+    width:100%;
     margin: auto;
     align:center;
     /* display: inline-block; */
@@ -24,6 +24,9 @@ b{
     position: relative;
 }
 
+.notopmargin{
+    margin-top: 0px;
+}
 
 .tinyrow{
 
@@ -37,9 +40,9 @@ b{
 
 .imagerow{
 
-    /* width:99%; */
+    width:100%;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 35px;
     position: relative;
     display: table;
 
@@ -61,6 +64,9 @@ b{
     size:auto;
 }
 
+.col100{
+    width: 100%;
+}
 
 .col33{
     width:32%;
@@ -103,6 +109,10 @@ b{
 }
 
 
+.gallerycol{
+    display: inline-block;
+}
+
 .row:after{
     content: "";
     display: table;
@@ -129,9 +139,14 @@ b{
     margin-left: 5%;
 }
 
-.subsection > .heading{
+.subsection > .row > .heading{
     font-size: 20px;
     margin-top: 40px;
+}
+
+.subsection > .row > .fullimage{
+    width: 149.8%;
+    margin-left: -27.5%;
 }
 
 .text{
@@ -169,7 +184,7 @@ b{
 
 .contactMe{
 
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .fullimage{
