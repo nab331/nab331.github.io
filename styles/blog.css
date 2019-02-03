@@ -139,12 +139,12 @@ b{
     margin-left: 5%;
 }
 
-.subsection > .row > .heading{
+.subsection > .row > .heading,.subsection > .heading{
     font-size: 20px;
     margin-top: 40px;
 }
 
-.subsection > .row > .fullimage{
+.subsection > .row > .fullimage, .subsection > .fullimage{
     width: 149.8%;
     margin-left: -27.5%;
 }

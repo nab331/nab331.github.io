@@ -214,7 +214,7 @@ b{
 
 
 /*-------- Landing --------*/
-.page1{position: relative;display: block;height: 97.5vh;min-height: 380px;margin-right: 15%;/* width: 60%; */margin-left: 15%;background-size: auto;}
+.page1{position: relative;display: block;height: 100vh;min-height: 380px;margin-right: 15%;/* width: 60%; */margin-left: 15%;background-size: auto;}
 
 .center{
     position: absolute;
@@ -238,7 +238,7 @@ b{
 }
 
 .landingHeading{
-    color: var(--washr-color);
+    color: #0063F5;
     font-size: 50px;
     font-weight: 600;
 }
@@ -269,7 +269,7 @@ b{
 }
 
 .landingLinks a:hover{
-    color: var(--washr-color);
+    color: #0063F5;
 }
 
 
@@ -344,7 +344,7 @@ background-size: cover;
     top: 50%;
     /* left: 50%; */
 
-    width: 45%;
+    width: 55%;
     margin-left: 15%;
 
     transform: translate(-0%,-50%);
@@ -436,7 +436,7 @@ background-size: cover;
 .project1{
     background-color: var(--p1-color);
     /* background-color: #DFDBE5; */
-    background-image: url("../images/washrcover@2x.png");
+    background-image: url("../images/washrcover.png");
     background-size:cover;
 }
 
@@ -449,7 +449,7 @@ background-size: cover;
 
 .project2{
     background-color: var(--p2-color);
-    background-image: url("../images/hintcover@2x.png");
+    background-image: url("../images/hintcover.png");
     background-size:cover;
 
 }
@@ -460,7 +460,7 @@ background-size: cover;
 
 .project3{
     background-color: var(--p3-color);
-    background-image: url("../images/dailyuicover@2x.png");
+    background-image: url("../images/dailyuicover.png");
     background-size:cover;
 }
 
@@ -625,7 +625,7 @@ font-weight: 600;
 a:hover{
     transition: ease .5s;
 
-    color: var(--primcol);
+    color: #008BFF;
 }
 
 a{
