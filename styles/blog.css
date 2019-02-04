@@ -206,6 +206,11 @@ b{
         width: 100%;
     }
 
+    .research > .imgcol {
+        display: inline-block;
+        margin-top: 60px;
+    }
+
     .seccol{
         margin-top: 60px;
     }

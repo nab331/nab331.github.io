@@ -1,0 +1,49 @@
+.aboutwrapper{
+    position: relative;
+    display: inline-block;
+    margin: 15% 0% 15% 0%;
+}
+
+
+.abouttext{
+    float: right;
+    width: 55%;
+    /* margin-left: 5%; */
+    margin-top: -10%;
+}
+
+
+.aboutimg{
+    float:left;
+    width: 40%;
+}
+
+
+.aboutheading{
+    font-weight: 600;
+    font-size: 60px;
+    color: #0063F5;
+
+}
+
+.aboutmain{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161033;
+
+}
+
+
+.aboutfooter a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0063F5;
+
+}
+
+.aboutfooter{
+    margin-top: 5%;
+}
