@@ -43,6 +43,17 @@ body{
 }
 
 
+.pageMargin{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.pagePadding{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
 .hcenter{
     position: relative;
     left: 50%;
@@ -139,9 +150,23 @@ b{
 .nav{
     display: flex;
     align-items: center;
-
     height: 122px;
+    background-color: #ffffffed;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: ease 0.5s;
+    top: 0px;
     /* transition: 0.25 ease; */
+}
+
+.smallnav{
+    height: 50px;
+
+}
+
+.smallLink{
+    font-size: 18px !important;
 }
 
 
@@ -177,6 +202,12 @@ b{
     font-size: 22px;
     font-weight: 600;
 }
+
+
+
+
+
+
 
 .hamburger {
     position: fixed;
@@ -230,7 +261,7 @@ b{
 
 .landingWrapper{
     position: relative;
-    top:20%;
+    top:39%;
     width: 65%;
     /* margin-right:auto; */
     /* margin-left: auto; */
@@ -693,6 +724,7 @@ a{
 
     .nav{
         height: 80px;
+        background-color: #ff000000;
     }
     .navLinks{
         display: none;
@@ -706,7 +738,7 @@ a{
     }
 
     .landingWrapper{
-        top:8%;
+        top:18%;
 
         width: 100%;
     }

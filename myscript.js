@@ -64,4 +64,35 @@ function NavToggle(x) {
 
 
 
-///zoom
+///navLogo
+
+window.onscroll = function() {myFunction()};
+
+
+function myFunction() {
+ var a = this.scrollY;
+
+
+ if (a>500) {
+     document.getElementById("navbar").classList.add("smallnav");
+
+     var elms = document.getElementsByClassName('navLink')
+
+     for (var i = 0; i < elms.length; i++) {
+       elms[i].classList.add("smallLink");
+
+    }
+
+}
+
+ else {
+     document.getElementById("navbar").classList.remove("smallnav");
+     var elms = document.getElementsByClassName('navLink')
+
+     for (var i = 0; i < elms.length; i++) {
+       elms[i].classList.remove("smallLink");
+
+    }
+ }
+
+}

@@ -27,31 +27,35 @@
         </div>
     </div>
 
-    <div class="pageMargin">
+    <!-- real navbar-->
 
-        <div class="nav">
-            <div class="navLogo">
-                <a href="../../index.html">NabeelJawahir</a>
+    <div id="navbar" class="nav pagePadding">
+        <div class="navLogo">
+            <a href="../../index.html"> <img src="../../favicon.png" alt=""> </a>
+            <!-- <img src="favicon.png" alt=""> -->
 
-            </div>
-            <div class="navLinks">
-                <a href="../../index.html#portfolio">Portfolio</a>
-                <a href="../../about.html">About</a>
-                <a href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
-                <a href="../../index.html#contactMe">Contact</a>
-            </div>
+        </div>
+        <div class="navLinks" >
+            <a class="navLink" href="../../index.html#portfolio">Portfolio </a>
+            <a class="navLink" href="../../about.html">About</a>
+            <a class="navLink" href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a class="navLink" href="../../index.html#contactMe">Contact</a>
+        </div>
 
-            <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
-                  <div class="bar1"></div>
-                  <div class="bar2"></div>
-                  <div class="bar3"></div>
-            </div>
-
-
+        <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
         </div>
 
 
-        <img src="assets/washrprojectimg.png" alt="projectimage" class="fullimage">
+    </div>
+
+    <div class="pageMargin">
+
+
+
+        <img src="assets/washrprojectimg.png" alt="projectimage" class="fullimage" id="projectImage">
 
         <div class="row">
             <div class="heading orange">Challenge</div>
@@ -89,13 +93,59 @@
                     It's also very common for flats in certain areas to not have a washing machine.
                     Doing laundry becomes a time consuming task.
                     </br></br>
-                    So, I decided to collect the user to the laundry service through an app that tackle the problems of traditional laundry services.
+                    So, I decided to collect the user to the laundry service through an app that tackles the problems of manual washing and traditional laundry services. No more time consuming, low quality, missmatched washes.
 
                 </div>
             </div>
 
         </div>
 
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Research</div>
+                    <div class="subsection">
+
+                            <div class="heading">User Research</div>
+                            <div class="text">
+                            I started the study by interviewing a few of my batch mates regarding the laundry service provided by the hostel
+                            and noted down the problems they had with the existing system for washing clothes and the potential solutions for them.
+                        </div>
+
+
+                            <div class="heading">Market Research</div>
+                            <div class="text">
+                            After that, i checked the android market for similar apps and made orders on each of the apps.
+                            </div>
+
+                            <div class="imagerow research">
+                                <div class="imgcol col33">
+                                    <img src="assets/research1.png" class="wireframe shadow2" alt="wireframe">
+                                    <div class="text">This app solved alot of the pain points i had noted down from the interviews, the UI is consistent but the process of ordering was pretty confusing.
+                                        It had a few redundant options. For example, there are options to chose clothes individually as well as a 'Wash Clothes' option in the main screen.
+                                    </br></br> <b>Conclusion : Good</b>
+                                    </div>
+                                </div>
+
+                                <div class="imgcol col33">
+                                    <img src="assets/research2.png" class="wireframe shadow2" alt="wireframe">
+                                    <div class="text">Almost exactly similar to laundrapp.
+                                    </br></br> <b>Conclusion : Good</b>
+                                    </div>
+                                </div>
+
+                                <div class="imgcol col33">
+                                    <img src="assets/research3.png" class="wireframe shadow2" alt="wireframe">
+                                    <div class="text">Poor UI, Lack of options, Absence of prices, Painful registration.
+                                    </br></br> <b>Conclusion : Poor</b>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+            </div>
+
+        </div>
 
         <div class="row">
             <div class="col">
@@ -110,65 +160,22 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="heading">Research</div>
-                    <div class="subsection">
-
-                            <div class="heading">User Research</div>
-                            <div class="text">
-                            I started the study by interviewing a few of my batch mates regarding the laundry service provided by the hostel
-                            and noted down what functionalities they wanted in the app and the problems they had with the existing system for washing clothes.
-                        </div>
-
-
-                            <div class="heading">Market Research</div>
-                            <div class="text">
-                            After that, i checked the android market for similar apps and made orders on each of the apps.
-                            </div>
-
-                            <div class="imagerow research">
-                                <div class="imgcol col33">
-                                    <img src="assets/research1.png" class="wireframe shadow2" alt="wireframe">
-                                    <div class="text">This app had all the features i was looking for, the UI is consistent but the process of ordering was pretty confusing.
-                                        It had a few redundant options. For example, there are options to chose clothes individually as well as a 'Wash Clothes' option.
-                                    </br></br> <b>Overall : 4/5</b>
-                                    </div>
-                                </div>
-
-                                <div class="imgcol col33">
-                                    <img src="assets/research2.png" class="wireframe shadow2" alt="wireframe">
-                                    <div class="text">Almost exactly similar to laundrapp.
-                                        </br></br> <b>Overall : 4/5</b>
-                                    </div>
-                                </div>
-
-                                <div class="imgcol col33">
-                                    <img src="assets/research3.png" class="wireframe shadow2" alt="wireframe">
-                                    <div class="text">Poor UI, Lack of options. Absence of prices.
-                                    </br></br> <b>Overall : 1/5</b>
-                                    </div>
-                                </div>
-                            </div>
-
-                    </div>
-            </div>
-
-        </div>
-
-        <div class="row">
             <h1 class="heading">Ideating + Paper Wireframing</h1>
             <img src="assets/sketching.jpg" class="fullimage imagerow" alt="">
         </div>
 
         <div class="row">
             <h1 class="heading">Userflow</h1>
+            <div class="text">I tried making the userflow as similar as i could to how an average person does his laundry (Using a service). Register, Chose some service, Add your clothes to the machine. Whoops, the whites need to be washed separately, maybe with some fabric freshner (Add-ons&Instruction) and tada. Time to pay for the service.
+
+            </div>
             <img src="assets/userflow.png" class="imagerow projectImg" alt="">
         </div>
 
         <div class="row">
                 <h1 class="heading">Lo-Fi Wireframes</h1>
                 <div class="text">
-                    After making the initial sketches and userflow, i sketched the Lo-Fi Wireframes on the basis of the priority of each function.
+                    After making the initial sketches and userflow, i sketched the Lo-Fi Wireframes, trying to keep it as simple, familiar and streamlined as possible.
                 </div>
                 <div class="">
                     <div class="imagerow">

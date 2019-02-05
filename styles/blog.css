@@ -4,7 +4,9 @@
     position: relative;
 }
 
-
+#projectImage{
+    margin-top: 122px;
+}
 
 ul{
     margin-left: 2%;
@@ -198,6 +200,15 @@ b{
 }
 
 @media only screen and (max-width: 600px){
+
+    #projectImage{
+        margin-top: 80px;
+    }
+
+    .navLogo{
+        display: none;
+    }
+
     .col{
         width: 100%;
     }
@@ -217,10 +228,6 @@ b{
 
     .wireframe img{
         width: 60vw;
-    }
-
-    .navLogo{
-        display: inline;
     }
 
 
