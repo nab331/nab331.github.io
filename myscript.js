@@ -73,7 +73,7 @@ function myFunction() {
  var a = this.scrollY;
 
 
- if (a>500) {
+ if (a>0) {
      document.getElementById("navbar").classList.add("smallnav");
 
      var elms = document.getElementsByClassName('navLink')

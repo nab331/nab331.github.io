@@ -353,6 +353,8 @@ background-size: cover;
     margin-bottom: 3%;
 
     transition: ease 0.25s;
+    background-size:cover;
+    background-attachment: fixed, scroll, scroll;
 }
 
 .project:hover{

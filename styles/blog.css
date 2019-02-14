@@ -45,6 +45,7 @@ b{
     width:100%;
     text-align: center;
     margin-top: 35px;
+    margin-bottom: 35px;
     position: relative;
     display: table;
 
@@ -197,6 +198,15 @@ b{
         margin-left: -21.5%;
         /* margin-right: -12%; */
         /* margin-right: -11%; */
+}
+
+.overlaybox{
+    position: fixed;
+    z-index: 2;
+    width: 15%;
+    height: 100%;
+    left: 0;
+    background-color: #f9f9f9;
 }
 
 @media only screen and (max-width: 600px){
