@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Order confirmed</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="cleartrip.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="cleartrip.js"></script>
+</head>
+
+
+
+
+
+
+<body>
+
+    <div id="nav">
+        <img src="assets/logo.png" class="vcenter" alt="">
+    </div>
+
+    <div id="card">
+        <div id="card-content">
+            <div class="wrapper" style="overflow:auto;">
+                <h1 style="float:left;">Your booking is done</h1>
+                <img src="assets/Group 15@2x.png" id="tickmark" alt="">
+
+            </div>
+
+
+            <h3 class="subtext">Your Trip id is 18011087616. All details will be sent to snehal.k@cleartrip.com</h3>
+            <h4>Thank you for booking with Cleartrip. Use the above trip id in all communication with Cleartrip.</h4>
+
+            <div id="tripdetails">
+                <div class="wrapper" style="overflow:auto;">
+
+                    <div class="headingtext" style="float:left;">
+                        <h2>Bangalore → Kolkata</h2>
+                        <h4>Saturday 30 Mar 2019</h4>
+                    </div>
+
+
+                    <div id="timedetails">
+                        <div class="heading">10:55 → 13:30</div>
+                        <div class="text">2h 35m</div>
+                        <div class="text">Non-stop</div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="flightdetails">
+                    <img src="assets/NoPath@2x.png" id="flighticon" alt="">
+                    <div class="heading">Jet Airways</div>
+                    <div class="text">6E1709</div>
+                    <div class="text">Economy</div>
+
+                </div>
+
+                <h3 style="font-size:18px;">Passengers</h3>
+
+                <div id="ticket-table">
+                    <table>
+                        <tr>
+                            <th class="semibold">Name</th>
+                            <th class="semibold">Phone Number</th>
+                            <th class="semibold" style="text-align:center">Seat Number</th>
+                            <th style="background-color:#F8F8F8;"> </th>
+                        </tr>
+                        <tr>
+                            <td class="semibold">Mr Sanjeev Kumar</td>
+                            <td> <img src="assets/tick.png" id="itenarytick" alt=""> +91 75598 70555<br/><span style="font-weight:600;font-size:10px;color:#3366CC;">Itinerary Sent</span></td>
+                            <td style="text-align:center;">60F</td>
+                            <td style="background-color:#F8F8F8;">
+                                <a href="#"><img src="assets/shareblack.png" class="blackicon" alt=""></a>
+                                <a href="assets/Mr Sanjeev Kumar.pdf" target="_blank"><img src="assets/downloadblack.png" class="blackicon nomargin" alt=""></a>
+                        </tr>
+                        <tr>
+                            <td class="semibold">Mrs Deepa Kumar</td>
+                            <td><a href="#"> <img src="assets/phone.png" id="smsicon" alt=""> SMS itinerary</a></td>
+                            <td> <button type="button" class="hcenter">Select Seat</button> </td>
+                            <td style="background-color:#F8F8F8;">
+
+                                <a href="#"><img id="sec-btn" src="assets/shareblack.png"  class="blackicon" alt=""></a>
+                                <a href="assets/Mrs Deepa Kumar.pdf" target="_blank"><img src="assets/downloadblack.png" class="blackicon nomargin" alt=""></a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+
+                <button type="button" onclick="window.print();" name="button" class="actionbuttons"><img src="assets/bxs-printer@2x.png" alt="">Print Ticket</button>
+
+                <a href="assets/mainticket.pdf" target="_blank">
+                     <button type="button" name="button" class="actionbuttons"><img src="assets/iconmonstr-download-2@2x.png" alt="download">Download PDF</button>
+                </a>
+
+                <button type="button" name="button" class="actionbuttons" id="share-btn"> <img src="assets/bx-share-alt@2x.png" alt="">Share</button>
+                <br/>
+
+                <a href="#">*Confirm your Cleartrip Account now for cancellations, rescheduling, offers and more.</a>
+
+            </div>
+
+
+            <div id="payment-table">
+                <div id="tape" class="hcenter">
+
+                </div>
+
+
+                <table>
+                    <tr>
+                        <th class="heading" style="padding-bottom:5px;" colspan="2">PAYMENT RECEIPT <br/><img src="assets/mastercard.png" class "hcenter" alt=""> </th>
+
+
+                    </tr>
+
+                    <tr>
+                        <th colspan="2" class="heading">TOTAL CHARGE</br> <span id="maintotal">₹ 9,614</span></th>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:10px;" colspan="2" class="heading">RATE BREAK UP</td>
+                    </tr>
+
+                    <tr>
+                        <td class="RHS">Base Fare</td>
+                        <td class="LHS">₹ 6,560</td>
+                    </tr>
+
+                    <tr>
+                        <td class="RHS">Taxes & Fees</td>
+                        <td class="LHS">₹ 4,554 <a href="#" style="font-size:11px">+break up</a> </td>
+                    </tr>
+
+                    <tr>
+                        <td class="RHS">Cashback</td>
+                        <td class="LHS">₹ 1,500</td>
+                    </tr>
+
+                    <tr>
+                        <td class="RHS smalltotal">Total</td>
+                        <td class="LHS smalltotal">₹ 9,614</td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div id="whatsnext">
+                <h1>What's Next?</h1>
+                <h4>Prepare your trip a step ahead. Let us take care of all the hassle.</h4>
+
+
+
+                <div id="infowrapper">
+
+                    <a href="#">
+                        <div class="infocard">
+                            <div class="imagewrapper">
+                                <img src="assets/title1.jpg" alt="">
+                            </div>
+
+                            <div class="textwrapper">
+                                <div class="heading">
+                                    Book a Cab
+                                </div>
+
+                                <div class="text">
+                                    Waste no time searching for affordable transport to and from the airport. Book Now!
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="#">
+                        <div class="infocard">
+                            <div class="imagewrapper">
+                                <img src="assets/hotel.png" alt="">
+                            </div>
+
+                            <div class="textwrapper">
+                                <div class="heading">
+                                    Book a hotel
+                                </div>
+
+                                <div class="text">
+                                    "The Corporate" 5 star hotel at 4000/night. See 215 other hotels in Kolkata.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="infocard">
+                            <div class="imagewrapper">
+                                <img src="assets/explore.png" alt="">
+                            </div>
+
+                            <div class="textwrapper">
+                                <div class="heading">
+                                    Explore Kolkata
+                                </div>
+
+                                <div class="text">
+                                    Check out the wildlife, food, resorts, scenery and 14 other activities in Kolkata.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="infocard">
+                            <div class="imagewrapper">
+                                <img src="assets/return.png" alt="">
+                            </div>
+
+                            <div class="textwrapper">
+                                <div class="heading">
+                                    Book a return trip
+                                </div>
+
+                                <div class="text">
+                                    It's only ₹7000 from Kolkata to Bangalore on the 16th of April. Compare rates for other days.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+
+
+
+                </div>
+
+                <a href="#">No thanks, take me back ⮌</a>
+
+
+
+
+
+                <div id="main-modal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+
+                        <span class="close">&times;</span>
+
+
+                        <form class="email-share">
+                            Share Via Email
+                            <br/><input type="text" placeholder="yourname@email.com"><br>
+                            <button>Share</button>
+                        </form>
+
+                        <form class="SMS-share">
+                            Share Via SMS
+                            <br/><input type="text" placeholder="+91XXXXXYYYYY"><br>
+                            <button id="email-share">Share</button>
+                        </form>
+
+                        <div class="line">
+
+                        </div>
+
+
+
+                        <div class="social-div">
+
+                            <div class="infocard">
+                                <div class="imagewrapper">
+                                    <img src="assets/kolkata.png" alt="">
+                                </div>
+
+                                <div class="textwrapper">
+                                    <div class="heading">
+                                        Bangalore → Kolkata
+                                    </div>
+
+                                    <div class="text">
+                                        Mr Sanjeev Kumar, Mrs Deepa Kumar
+                                        <br/>Saturday 30 Mar 2019
+                                        <br/>10:55 → 13:30
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="social-share">
+                                Let everyone know about your trip.
+                                <br/>
+
+                                <button id="fbbutton" type="button" name="button"> <img src="assets/fb.png" alt=""> </button>
+                                <button id="twitterbutton" type="button" name="button"> <img src="assets/twitter.png" alt=""> </button>
+                                <button id="instabutton" type="button" name="button"> <img src="assets/insta.png" alt=""> </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div id="secondary-modal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+
+                        <span class="close">&times;</span>
+
+
+                        <form class="email-share">
+                            Share Via Email
+                            <br/><input type="text" placeholder="yourname@email.com"><br>
+                            <button>Share</button>
+                        </form>
+
+                        <form class="SMS-share">
+                            Share Via SMS
+                            <br/><input type="text" placeholder="+91XXXXXYYYYY"><br>
+                            <button id="email-share">Share</button>
+                        </form>
+
+                        <div class="line">
+
+                        </div>
+
+
+
+                        <div class="social-div">
+
+                            <div class="infocard">
+                                <div class="imagewrapper">
+                                    <img src="assets/kolkata.png" alt="">
+                                </div>
+
+                                <div class="textwrapper">
+                                    <div class="heading">
+                                        Bangalore → Kolkata
+                                    </div>
+
+                                    <div class="text">
+                                        Mrs Deepa Kumar
+                                        <br/>Saturday 30 Mar 2019
+                                        <br/>10:55 → 13:30
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="social-share">
+                                Let everyone know about your trip.
+                                <br/>
+
+                                <button id="fbbutton" type="button" name="button"> <img src="assets/fb.png" alt=""> </button>
+                                <button id="twitterbutton" type="button" name="button"> <img src="assets/twitter.png" alt=""> </button>
+                                <button id="instabutton" type="button" name="button"> <img src="assets/insta.png" alt=""> </button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+</body>
+
+</html>

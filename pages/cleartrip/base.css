@@ -1,0 +1,21 @@
+:root {
+  --margin:8%;
+  --paddingx:5%;
+}
+
+
+.hcenter{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nomargin{
+    margin: 0px !important;
+}
