@@ -8,10 +8,6 @@ a:hover{
     color: var(--hint-color1);
 }
 
-.heading{
-    color: var(--hint-color1);
-}
-
 
 .subsection > .projectImg{
     margin-top: 0px;;
@@ -43,9 +39,6 @@ a:hover{
 }
 
 
-#website > .heading, #website > .subsection > .row > .heading{
-    color: var(--hint-color2);
-}
 
 
 
@@ -53,4 +46,16 @@ a:hover{
 
     margin-top: 0px;
 
+}
+
+
+#previews{
+    display: inline-block;
+    position: relative;
+}
+
+#previews img{
+    width: 90%;
+    padding: 20px;
+    height: auto;
 }

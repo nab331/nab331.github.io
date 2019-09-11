@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nabeel Jawahir</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="../../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="adogt.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../myscript.js"></script>
+</head>
+
+
+
+
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../../index.html#portfolio" onclick="NavToggle(this)">Portfolio</a>
+            <a href="../../about.html">About</a>
+            <a href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a href="../../index.html#contactMe">Contact</a>
+        </div>
+    </div>
+
+    <!-- real navbar-->
+
+    <div id="navbar" class="nav pagePadding">
+        <div class="navLogo">
+            <a href="../../index.html"> <img src="../../favicon.png" alt=""> </a>
+            <!-- <img src="favicon.png" alt=""> -->
+
+        </div>
+        <div class="navLinks">
+            <a class="navLink" href="../../index.html#portfolio">Portfolio </a>
+            <a class="navLink" href="../../about.html">About</a>
+            <a class="navLink" href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a class="navLink" href="../../index.html#contactMe">Contact</a>
+        </div>
+
+        <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+    </div>
+
+    <div class="pageMargin">
+
+
+
+        <img src="assets/adogt@2x.png" alt="projectimage" class="fullimage" id="projectImage">
+
+        <div class="row">
+            <div class="heading orange">Challenge</div>
+            <div class="text">To design an app that that facilitates adoption of shelter dogs.</div>
+        </div>
+
+        <div class="row">
+            <div class="col col50 maincol">
+                <div class="heading">My Role</div>
+                <div class="text">Product Designer</div>
+            </div>
+
+            <div class="col col50 seccol">
+                <div class="heading ">Timeline</div>
+                <div class="text">August 2019 (2 weeks)</div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Introduction</div>
+                <div class="text">
+                    Adogt is an app that facilitates adoption of shelter dogs. Initially, I saw this problem statement as a part of our college fest’s 24 hour product design competition. Intrigued, I decided to work on it on my own time.
+                    <br/><br/> Before I started anything, I decided to find out the pain points of the dog adoption process and answer the following questions.
+                    <br/><br/> What makes adopting a dog so difficult? Why do people prefer buying pets instead of adopting them? What makes a dog desirable for adopters? How does one find the right dog for themselves? Why do adopted dogs get returned?
+                    <br><br><a href="#HiFi">Skip to the Hi-Fidelity Wireframes</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="Research">
+            <div class="col">
+                <div class="heading">Research</div>
+                <div class="text">
+                    Mode of Research : Public Surveys, User Interviews
+
+                </div>
+                <div class="subsection">
+
+                    <div class="heading">(1/4) Why don’t people adopt dogs as much as they buy them?</div>
+                    <div class="text">
+
+                        Survey Sources:
+                        <br> <a href="https://bestfriends.org/blogs/2017/07/05/to-adopt-or-not-a-new-best-friends-survey-sheds-light-on-pet-adoptions">The Best Friends Survey</a>
+                        <br> <a href="http://815678169699-bfas-files.s3-us-west-2.amazonaws.com/Best-Friends-Inaugural-Pet-Adoption-Survery-Infographic-7.1.pdf">Best Friends Inaugural Pet Adoption Survery</a>
+                        <br> <a href="https://dogtime.com/trending/20518-study-shows-more-people-favor-adoption-over-purchasing-a-pet">PetSmart Survey</a>
+
+                        <br><br> After scouring a few surveys and talking with friends who are dog owners, I was able to conclude that people don’t usually adopt dogs because:
+                        <br/><br/>
+
+                        <span style="color:var(--adogt-color);">• </span> They don't know how to adopt a dog.<br/>
+                        <span style="color:var(--adogt-color);">• </span> Adoption facilities are not conveniently located.<br/>
+                        <span style="color:var(--adogt-color);">• </span> They believed that shelter animals were poorly behaved, malnourished and unhealthy<br/>
+                        <span style="color:var(--adogt-color);">• </span> They don't believe that shelters has breeds (pure breed) that they preferred.<br/>
+                        <span style="color:var(--adogt-color);">• </span> Among people who did try adopting, they complained that the process had too much paperwork, the requirements were strict, the responses from the adoption center were bad.
+                        <br>
+
+                        <br/>
+                        <br/>
+
+                        <span class="quote">
+                                    One third (33%) of respondents of
+                                    <a href="http://815678169699-bfas-files.s3-us-west-2.amazonaws.com/Best-Friends-Inaugural-Pet-Adoption-Survery-Infographic-7.1.pdf">Best Friends Animal Societies’ pet adoption survey</a>
+                                     believed that shelter animals are less desirable than those purchased from breeders.
+                                    In reality, not only are most shelter animals great family pets, but shelter animals tend to be healthier than those purchased at a pet store.
+                                </span>
+
+                        <br/><br/>
+                        <span class="quote">
+                                    <a href="https://dogtime.com/trending/20518-study-shows-more-people-favor-adoption-over-purchasing-a-pet">(PetSmart Survey)</a> Among the almost 3,000 people who live with cats and dogs, Thirty-four percent of those who added a pet in the previous 12 months but chose not to adopt said they went elsewhere because shelters do not have purebred animals (not true). And 12 percent of those who chose not to adopt said they didn’t know much about pet adoption.
+                                </span>
+
+                    </div>
+
+
+                    <div class="heading">(2/4) What makes a shelter dog desirable?</div>
+                    <div class="text">
+                        Survey Sources:
+                        <br> <a href="https://www.extension.purdue.edu/extmedia/VA/VA-21-W.pdf">Purdue Study</a>
+                        <br> <a href="https://www.ncbi.nlm.nih.gov/pubmed/9713528">J Am Vet Med Assoc.  </a>
+
+                        <br/><br/>
+
+                        <span style="color:var(--adogt-color);">• </span>Physical Appearance (Dogs with large, wide set, colorful eyes and a “smiling” facial expression were most appealing to respondents)<br/>
+                        <span style="color:var(--adogt-color);">• </span>Breed type (Purebred dogs were preferred)<br/>
+                        <span style="color:var(--adogt-color);">• </span>Age (Younger dogs/puppies were preferred)<br/>
+                        <span style="color:var(--adogt-color);">• </span>Size (Smaller puppies were preferred)<br/>
+                        <span style="color:var(--adogt-color);">• </span>Behaviour (Desire for the dog to be safe with children, to be housetrained)<br/>
+                        <br>
+
+                        <span class="quote">
+                                <a href="https://www.ncbi.nlm.nih.gov/pubmed/9713528">(J Am Vet Med Assoc.)</a>
+                                Terrier, hound, toy, and non sporting breeds were found to be significantly associated with successful adoption.
+                                 Certain coat colors (gold, gray, and white), small size, and history of an indoor environment were also significant predictors of successful adoption
+                                </span>
+
+                    </div>
+
+
+                    <div class="heading">(3/4) Why do people return adopted dogs?</div>
+                    <div class="text">
+                        Survey Sources:
+                        <br> <a href="https://www.hillspet.com/dog-care/new-pet-parent/common-reasons-adopted-dogs-are-returned-to-shelters">Hillspet Article</a>
+                        <br> <a href="https://www.americanhumane.org/app/uploads/2016/08/petsmart-keeping-pets-phase-ii.pdf">American Humane Association</a> The three main reasons for returning a pet are :
+                        <br/><br/>
+
+                        <span style="color:var(--adogt-color);">• </span>Unexpected costs<br/>
+                        <span style="color:var(--adogt-color);">• </span>Human health issues (Allergic Reactions)<br/>
+                        <span style="color:var(--adogt-color);">• </span>Behavioural characteristics of the dog.(Hyperactivity, Aggression)<br/>
+                        <br>
+
+
+                        <span class="quote">
+                                A 2013 study by the <a href="https://www.americanhumane.org/app/uploads/2016/08/petsmart-keeping-pets-phase-ii.pdf">American Humane Association</a> found that one in ten pets adopted from a shelter were no longer in the home six months later and that people who asked for help before
+                                returning the pet were more likely to keep the pet than those who had not sought advice from a vet, friends, family or the shelter.
+                                </span>
+
+                    </div>
+
+                    <div class="heading">(4/4) How does one adopt a shelter dog?</div>
+                    <div class="text">
+                        Since adopting a dog comes with a lot of questions and uncertainties, the user can ask the adoption center queries regarding the dog and its tendencies. Once his/her queries are answered, he/she may choose to visit the dog and see if the dog is as he/she
+                        expected it to be.
+                        <br><br> Once the user is satisfied with their option, they apply for adoption. The adoption policies of shelters are different in different locations. If the shelter is strict on their adoption policy, they can ask a lot of qualifying
+                        questions like “Would you be able to take the dog for social classes once a week?” or questions about household, age, previous and current pets, the condition/size of the house and yard to see if the user is fit for the dog or
+                        not.
+                        <br><br> After that, the user signs an adoption agreement, pays the adoption fees, if such a fee exists and collects the dog.
+
+                        <br><br>
+
+                        <img src="assets/flow.svg" alt="userflow" style="height:80vh;" class="hcenter">
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="UserPersona">
+            <div class="col">
+                <div class="heading">User Personas</div>
+                <div class="text">
+                    Target Users : Adult pet lovers who are considering the idea of owning a pet in the near future.
+                    </br>
+                    </br>
+                    <img src="assets/persona1.svg" id="userpersona" alt="userpersona">
+                    <br><br>
+                    <img src="assets/persona2.svg" id="userpersona" alt="userpersona">
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="PainPoint">
+
+
+            <div class="heading">Addressing the pain points</div>
+            <br><br><br>
+
+            <div class="displayrow fullimage ">
+
+                <div class="textblock vcenter">
+                    <div class="heading">"I don't know how to adopt a dog"</div>
+                    <div class="text">
+                        The adoption process may seem daunting but it does not have to be that hectic. <b>Do everything from querying, scheduling, payment to signing agreements on the chat interface in the app itself.</b>
+
+                        <br><br> The process should feel like you’re talking to a representative from the shelter who is walking you through the process of adopting the dog - Without actually being there, of course.
+                    </div>
+                </div>
+
+
+                <div class="dispImg">
+                    <img src="assets/texting.svg" alt="texting">
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2">
+
+                <div class="textblock vcenter">
+                    <div class="heading">"Will the dog fit my lifestyle?"</div>
+                    <div class="text">
+                        Want an energetic dog? Maybe you want a quiet cuddly dog. Maybe you just want a dog that's good with your family.
+
+                        <br><br>
+                        <b>All distinctive traits of the dog will be marked by the shelter.</b>
+                    </div>
+                </div>
+
+                <div class="dispImg">
+                    <img src="assets/realdoggo.svg" alt="texting">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="Ideating">
+            <h1 class="heading">Ideating + Paper Wireframing</h1>
+            <img src="assets/sketch.jpg" class="fullimage imagerow" alt="">
+        </div>
+
+        <div class="row" id="LoFi">
+            <h1 class="heading">Lo-Fi Wireframes</h1>
+            <div class="text">
+                The main focus was on the "Browse" page to determine what information was needed and displaying the results emphasising on factors that lead to a successful adoption.
+                <br><br>Another area of major focus was the "Messages" tab to streamline the adoption process and to incorporate all the relevant adoption steps into a message interface.
+            </div>
+
+            <img src="assets/Lofi.png" alt="" class="imagerow">
+        </div>
+
+        <div class="row" id="UserTesting">
+            <div class="heading">
+                User Testing
+            </div>
+            <div class="text">
+                I tested the prototype on 5 of my classmates who are all dog owners and of the age group 20-24.
+                <br><br> The testing was divided into 3 tasks and the users were made to complete the tasks separately as their actions were observed.
+                <br> Task 1 : Message the shelter a query regarding "Rusty, The Golden Retriever"
+                <br>Task 2 : Adopt "Rusty, The Golden Retriever"
+                <br>Task 3 : Filter for "Bulldogs and Beagles"
+                <br>
+
+                <div class="subsection">
+                    <div class="heading">New Message Ambiguity</div>
+                    <img src="assets/usertest.png" class="imagerow" alt="">
+                    <div class="text">
+                        In Task 1, All 5 users went to the "Inbox" tab to send a message to the shelter rather than : <b>Rusty (Profile) > Message Shelter.</b> This made me realize that I had overlooked the "New Message" option in the Inbox tab. So that
+                        users can : <b>Inbox > New Message.</b>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row" id="VisualDes">
+            <div class="col">
+                <div class="heading">Visual Design</div>
+                <div class="text">
+                    Illustrations : <a href="https://undraw.co">Undraw.co</a>
+                    <br> Icons : <a href="https://boxicons.com/">Boxicons</a>, Feather Icons
+                </div>
+                <br>
+                <img src="assets/Visual.svg" alt="" class="hcenter" style="width:80%;">
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row" id="HiFi">
+
+
+            <div class="heading">Hi Fidelity Wireframes</div>
+            <br><br><br>
+            <div class="displayrow fullimage wfdisplay" id="Onboarding">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Onboarding</div>
+                    <div class="text">
+                        The welcome screen highlights the main features of the app : Explore/Query/Live Status.
+                        <br><br> Sign In/Sign Up or don't sign in at all. <a href="https://www.nngroup.com/articles/login-walls/" target="_blank" style="color:white;">There are no login walls.</a>
+                        <br><br> The only question that is compulsory is the location of the user since it directly corelates with the contents of the initial browse page.
+                        <br><br> To make the initial browsing experience personalized, we allow the user the option to initially filter their results.
+
+                    </div>
+                </div>
+
+
+                <div class="dispImg" id="">
+
+                    <video width="320" height="240" controls>
+                      <source src="assets/onboarding.mp4" type="video/mp4">
+
+                      Your browser does not support the video tag.
+                    </video>
+
+
+                </div>
+
+                <div class="dispImg fullimage" id="">
+
+                    <img src="assets/hifi/1.png" alt="">
+                    <img src="assets/hifi/2.png" alt="">
+                    <img src="assets/hifi/3.png" alt="">
+                    <img src="assets/hifi/4.png" alt="">
+                    <img src="assets/hifi/5.png" alt="">
+                    <img src="assets/hifi/6.png" alt="">
+                    <img src="assets/hifi/7.png" alt="">
+                    <img src="assets/hifi/8.png" alt="">
+                    <img src="assets/hifi/9.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2 wfdisplay" id="WFBrowse">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Browse & Filter</div>
+                    <div class="text">
+                        The users starts off at the browse page.
+                        <br><br> Filter results based on Age, Breed, Color, Gender and behavior (Family friendly, Energetic, etc)
+                        <br><br> See Similar Results after the search results. Inspired by Spotify's "Recommended for you" section. Often, users are not aware of the similarities between dog breeds. The main aim of this section is to introduce users to
+                        breeds of dogs that they are unaware of that are similar to their search results. If the user likes the suggested filter, they can add it to their search filter and broaden their search results.
+                        <br><br> Top Picks: If the user didn't find the dog he was looking for, nor did the similar results help, it's time to look for a different type of dog.
+                        This section dispels common myths that people have about shelter dogs such as "Shelter dogs are unhealthy" or "Shelter dogs are untrained".
+                </div>
+
+
+                <div class="dispImg fullimage" id="">
+                    <img src="assets/hifi/Browse.png" alt="texting">
+                    <img src="assets/hifi/Browse_Filter.png" alt="">
+                    <img src="assets/hifi/Browse_Search.png" alt="">
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="displayrow fullimage  wfdisplay" id="WFProfile">
+
+                <div class="textblock vcenter">
+                    <div class="heading">The Profile Page</div>
+                    <div class="text">
+                        <b>
+                        Primary CTA : Apply for adoption
+                        <br>
+                        Secondary CTA  : Schedule a visit to the shelter
+                        </b>
+
+                        <ul>
+                            The profile page allows you to see:
+                            <li>The physical attributes of the dog</li>
+                            <li>Shelter location</li>
+                            <li>Message from the shelter about the dog (optional)</li>
+                            <li>The behavior traits.</li>
+                        </ul>
+
+                        <br> If the information above doesn't satisfy the user, he can proceed to message the shelter to enquire further.
+                        <br><br> Since the dogs wellbeing and health status is also a major concern for a lot of users, they can opt to view the latest medical record of the dog.
+                        <br><br> Lastly, the user is presented with a picture gallery since looks are one of the most important signifiers for successful adoption. Besides, a couple of happy puppy photos never hurt anyone
+                    </div>
+                </div>
+
+
+                <div class="dispImg" id="">
+                    <img src="assets/hifi/Profile.png" alt="texting">
+                    <img src="assets/hifi/Profile_Sch.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2 wfdisplay" id="WFFav">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Favourites</div>
+                    <div class="text">
+                        Adopting a dog is a big decision. Users might want to compare several search results before picking the right dog, similar to the wishlist feature in several e-commerce websites. Moreover, this encourages the user to come back to the app and decreases
+                        the effort required to reach the final "Apply For Adoption" state.
+                    </div>
+                </div>
+
+
+                <div class="dispImg">
+
+                    <img src="assets/hifi/Favourites.png" alt="">
+
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage  wfdisplay" id="WFInbox">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Inbox</div>
+                    <div class="text">
+                        The main functions of the inbox page are: <br> 1. Composing new messages to the Shelter<br> 2. Seeing the status of the adoption process.<br>
+                        <br><br> The status tracker shows all <a href="https://www.nngroup.com/articles/status-tracker-progress-update/">low granularity</a> updates such as the status of the requirement questionnaire, paperwork, adoption fees and delivery.
+                    </div>
+                </div>
+
+
+                <div class="dispImg" id="">
+
+                    <img src="assets/hifi/Inbox.png" alt="texting">
+                    <img src="assets/hifi/Inbox_Search.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage  dispv2 wfdisplay" id="WFMessage">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Inbox -> Messages</div>
+                    <div class="text">
+                        This is the most crucial part of the app. All interactions with the shelter is displayed in the chat box.
+                        <br><br> 1. The user can ask the shelter any unanswered query regarding the dog.
+                        <br><br> 2. If the user decides to schedule a visit from the profile page, it will be shown here as a reminder.
+                        <br><br> 3. If the user opts to adopt the dog from the profile page, the request will be shown in orange when it is pending and will turn to green once its confirmed.
+                        <br><br> 4. The shelter may opt to ask the user a few qualifying questions first before confirming.
+                        <br>ex:
+                        <br>"Can you take the dog for weekly social classes?"
+                        <br>"Can you take the dog for frequent walks"
+                        <br><br> 5. Once confirmed, the user has to agree to the adoption paperwork and pay an adoption amount if such a fee exists.
+                        <br><br> 6. After that, the user can either opt to visit the dog or have the shelter deliver the dog to their address.
+                    </div>
+                </div>
+
+
+                <div class="dispImg" id="">
+                    <img src="assets/hifi/Messages@2x.png" alt="texting">
+
+
+                    <video width="320" height="240" controls>
+                      <source src="assets/messages.mp4" type="video/mp4">
+
+                      Your browser does not support the video tag.
+                    </video>
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row" id="prototype">
+            <div class="heading">
+                Final Prototype
+            </div>
+
+            <div class="text">
+                The prototype was made using Adobe XD's inbuilt prototyping tool.<br>
+                <a href="https://xd.adobe.com/view/aa6e8535-c528-46c3-687a-041b3fb13556-dc5f/?fullscreen">Open Final Prototype</a>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="heading">Conclusions</div>
+            <div class="text">
+                <ul>
+                    <li><b>This project has made me realise the importance of data and research</b>
+                    <br>Before doing the research, i thought that the most factors for successful adoption were the health, story, breed and training of the dog.
+                     After the research phase I learn that factors like age, looks, size, behaviour and breed were a much more important factor for adoption success. </li>
+                     <br>
+                     <li><b>What I would have done differently:</b>
+                         <br>I did not take into consideration factors outside the dogs physical and behaviour charecteristics for successful adoption
+                         such as the importance of adoption fee for a successful adoption. Although the fees are insignificant, researching how much adoption fees affected successful adoption would have yielded a better adoption experience.
+                        <br><br>The onboarding process is too lengthy. Looking back, I could have asked the user for the filter options and location after the Browsing page loaded.
+                     </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="divider fullimage">
+        </div>
+    </div>
+
+    </div>
+    <div class="contactMe" id="contactMe">
+        <div class="contactContent center">
+            <a href="../../index.html">←</a>
+            </br>
+
+            <a href="#" class="activeLink">Adogt App</a>
+            <a href="../washr/washr.html">Washr App</a>
+            <a href="../hint/hint.html">Hack In The North</a>
+            <a href="../dailyui/dailyui.html">UI Collection</a>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
