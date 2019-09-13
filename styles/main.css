@@ -505,14 +505,14 @@ background-size: cover;
     background-size:cover;
 }
 
-.project2 > .projectContent {
+/* .project2 > .projectContent {
     right: 0%;
 
     margin-right: 15%;
     margin-left: 0%;
 
     text-align: right;
-}
+} */
 
 
 .pypaint{
