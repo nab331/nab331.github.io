@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nabeel Jawahir</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="../../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="stide.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../myscript.js"></script>
+</head>
+
+
+
+
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../../index.html#portfolio" onclick="NavToggle(this)">Portfolio</a>
+            <a href="../../about.html">About</a>
+            <a href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a href="../../index.html#contactMe">Contact</a>
+        </div>
+    </div>
+
+    <!-- real navbar-->
+
+    <div id="navbar" class="nav pagePadding">
+        <div class="navLogo">
+            <a href="../../index.html"> <img src="../../favicon.png" alt=""> </a>
+            <!-- <img src="favicon.png" alt=""> -->
+
+        </div>
+        <div class="navLinks">
+            <a class="navLink" href="../../index.html#portfolio">Portfolio </a>
+            <a class="navLink" href="../../about.html">About</a>
+            <a class="navLink" href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a class="navLink" href="../../index.html#contactMe">Contact</a>
+        </div>
+
+        <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+    </div>
+
+    <div class="pageMargin">
+
+
+
+        <br><br><br><br><br>
+
+        <div class="row">
+            <div class="heading orange">Challenge</div>
+            <div class="text">To design a complete product for these millennials willing to invest in stock markets and cryptocurrencies by understanding things on their own.
+                <br><a href="https://www.notion.so/Assignment-Product-Designer-31de2a71675a4087902c67889fe15860">(Full Problem Statement)</a>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Introduction</div>
+                <div class="text">
+                    Millennials do not like the idea of using the traditional investment options where a broker who understands market flow guides them what to do through an app or email or a phone call. Millennials want to have full control in their own hand
+                    <br><br>
+                    Before beginning, I wanted to find out the root frustrations and needs of the millennials.
+                    Why do millennials find it hard to use traditional stock market apps?
+                    What do users do before making investments and what information to they require?
+                    Why are millennials hesitant to buy stocks and how could one make the experience easier?
+                    How do millennials interact with apps and how do I optimise it for their attention span?
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="Research">
+            <div class="col">
+                <div class="heading">Research</div>
+                <div class="text">
+                    Mode of Research : Public Surveys, User Interviews
+
+                </div>
+                <div class="subsection">
+
+                    <div class="heading">Assumptions</div>
+                    <div class="text">
+
+                        Being a millenial myself with almost no knowledge about the stock market, I decided to use the existing stock market apps and apps that helped understand stock market investing to find out some of the problems encountered and formed my initial assumptions.
+                        <br><br>Stock market apps : Investing.com, OctaFX, moneycontrol
+                        <br>Stock market learning apps : My Wallst Learn, InvestEd
+                        <br><br>
+
+                        <b>Frustrations</b>
+                        <br>Too much stats and info.
+                        <br>Clueless about what the stats signify.
+                        <br>Don’t know which stock is good and which one is bad.
+                        <br><br>
+
+                        <b>Needs</b>
+                        <br>Way to understand which stocks are good and which are not.
+                        <br>A better way of learning about the market.
+                        <br>Easier way to learn about stock terms.
+
+
+                        <br/>
+                        <br/>
+
+                    </div>
+
+
+                    <div class="heading">Validating Assumptions</div>
+                    <div class="text">
+                        To further understand the problem, I decided to look at some public survey data and interviewed 4 of my friends of the same age group.
+                        <br><br>
+                        Survey Source:
+                        <br> <a href="https://www.investopedia.com/the-investopedia-affluent-millennials-study-4769751">Investopedia’s Affluent Millennial Investing Survey</a>
+
+                        <br/><br/>
+
+                        According to Investopedia’s Affluent Millennial Investing Survey, The Majority of Affluent Millennials Don’t Feel Knowledgeable About Investing.
+                        <br><br>
+                        <span class="quote">
+                            Only 37% of affluent millennials feel knowledgeable about investing at all.
+                            <br><br>
+                            High-income millennials who feel knowledgeable about investing are 5X more likely (73% vs. 14%) to feel very confident in their ability to make their own financial decisions.
+                        </span>
+                        <br><br>
+                        <b>Core problem Discovered</b> : Millenials are not knowledgeable about investing.
+                        There is a fundamental lack of basic financial education that is required before investing.
+                        <br><br>
+                        <b>Interviews</b>
+                        <br>
+                        I opened the investing.com app and asked the user to hypothetically invest in one of the stocks and asked them to report any problems they encounter.
+                        <br><br>
+                        Common theme:
+                        <br>“What do these numbers mean?”
+                        <br>“Are the green ones doing good? Which ones are good to invest?”
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="UserPersona">
+            <div class="col">
+                <div class="heading">User Personas</div>
+                <div class="text">
+                    Target Users : Millenials interest in investing.
+                    </br>
+                    </br>
+                    <img src="assets/user.png" id="userpersona" alt="userpersona">
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="PainPoint">
+
+
+            <div class="heading">The Solution</div>
+            <br><br><br>
+
+            <div class="displayrow fullimage ">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Social Validation : Social Trading/Copy Trading/ Reviews</div>
+                    <div class="text" >
+                        People look to others for guidance on what they should do, especially if they are uncertain. This is called social validation. This is why, for example, ratings and reviews are so powerful on websites.
+                        <br><br>
+                        This is the same reason that Copytrading (Copying strategies of expert traders) is quite popular.
+                        <br><br>
+                        It's fair to make the assumption that people are more likely to explore and invest in stocks if they knew someone in their close social circle or some expert/trusted investor that has shares in that particular stock. Same for lessons and courses. Users are more likely to indulge in a course that has been recommended to them by someone they trust.
+
+
+                    </div>
+                </div>
+
+
+                <div class="dispImg">
+                    <img src="assets/img1@2x.png" alt="texting">
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2">
+
+                <div class="textblock vcenter" style="width:100%;">
+                    <div class="heading">Optimizing for short attention spans.</div>
+                    <div class="text">
+                        Users get bored when they are presented information that have no value. Hence, the focus has to be on giving the user relevant information only when he needs it and giving the user a preview of what a particular course/lesson entails.
+                        <br><br>
+                        For most forms of content, such as social media posts, average articles, or web pages, you have less time to work with – typically only 5 to 7 minutes.  This is because as the users’ investment in the content drops, so does their willingness to pay sustained attention to it.
+                        <br><br>
+                        Apps like blink list and InShort are designed keeping in mind the short attention spans of users, by giving a summarised versions of books and news respectively.
+                        Blinklist gives the user a summary along with the option to buy and read the whole book, eliminating the frustration of reading the book half way through and losing interest.
+
+                    </div>
+                </div>
+
+                <!-- <div class="dispImg">
+                    <img src="assets/realdoggo.svg" alt="texting">
+                </div> -->
+
+            </div>
+
+        </div>
+
+
+        <div class="row" id="LoFi">
+            <h1 class="heading">Lo-Fi Wireframes</h1>
+            <div class="text">
+                After sketching out a few ideas, I drew the user flows for various scenarios and proceeded to create the wireframes on paper, prioritising simplicity and user friendliness. Once I was satisfied with the information hierarchy, I made the Low fidelity wireframes.
+            <img src="assets/wireframe.png" alt="" class="imagerow">
+        </div>
+
+
+
+        <div class="row" id="HiFi">
+
+
+            <div class="heading">Hi Fidelity Wireframes</div>
+            <br><br><br>
+            <div class="displayrow fullimage wfdisplay" id="Onboarding">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Onboarding</div>
+                    <div class="text">
+                        Since this is not a trading app, instead a guide for trading, the user has to connect thier account to their trading account to see who owns what stocks.
+                        This is necessary as just connecting with another person is not enough to see their investment activities, the user has to connect to the persons trading account as well.
+                    </div>
+                </div>
+
+
+                <div class="dispImg fullimage" id="">
+
+                    <img src="assets/hifi/1@2x.png" alt="">
+                    <img src="assets/hifi/2@2x.png" alt="">
+                    <img src="assets/hifi/3@2x.png" alt="">
+                    <img src="assets/hifi/4@2x.png" alt="">
+                    <img src="assets/hifi/5@2x.png" alt="">
+                    <img src="assets/hifi/6@2x.png" alt="">
+                    <img src="assets/hifi/7@2x.png" alt="">
+
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2 wfdisplay" id="WFBrowse">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Learn</div>
+                    <div class="text">
+
+                        The emphasis of the app is on the learn section as the research phase showed that most millenials were not comfortable with their level of knowledge with regards to stocks and investments.
+                        <br><br>
+                        Another benefit of linking trading accounts and social accounts : You can see courses recommended by the top traders that you follow as well people in your social circle.
+                        <br><br>
+                        Optimised for short attention span : Short lessons with emphasis on the time required to complete the lesson and a quick summary of what you'll be getting inside of the lesson.
+                        Only take the lesson if the user is comfortable with the time and content of the lesson.
+                        <br><br>
+                        When the user is viewing the stocks and sees a term he is not familiar with (Ex:P/E Ratio) he can click on it to view the definition and learn the lesson/course that the term belonged to.
+                        That way it reduces the need for the user to go through all the courses or the need to separately search for the term.
+                    </div>
+
+
+                <div class="dispImg fullimage" id="">
+                    <img src="assets/hifi/Learn.png" alt="texting">
+                    <img src="assets/hifi/Learn2.png" alt="">
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="displayrow fullimage  wfdisplay" id="WFProfile">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Market</div>
+                    <div class="text">
+                        In a traditional stock app, you are bombarded with multiple stocks : Stocks that are performing well/bad,stocks thats that are “trending”. A relatively new user will be intimidated by so much data and so much information. The emphasis of this page is to show the user only what needs to be shown.
+                        <br><br>
+                        The “Filtered” page shows stocks from categories that the user selected during onboarding. The well performing and trending stocks are hidden in the markets tab rather than displaying everything on one tab one after the other in a scrollable manner. Although this will surely affect discoverability of the stocks, it was a trade off I was willing to make considering the short attention span and patience of the millennial.
+                        <br><br>
+                        Using social validation to increase engagement with stocks : If a user sees someone from their connection owns shares of a company they are more likely to check it out.
+
+                    </div>
+                </div>
+
+
+                <div class="dispImg fullimage" id="">
+                    <img src="assets/hifi/market@2x.png" alt="texting">
+                    <img src="assets/hifi/market2@2x.png" alt="">
+                    <img src="assets/hifi/market3@2x.png" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="displayrow fullimage dispv2 wfdisplay" id="WFFav">
+
+                <div class="textblock vcenter">
+                    <div class="heading">Connections</div>
+                    <div class="text">
+                        See what your friends are purchasing/selling or Find expert traders and mimic their strategy.
+                    </div>
+                </div>
+
+
+                <div class="dispImg">
+
+                    <img src="assets/hifi/connections@2x.png" alt="">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="divider fullimage" style="background-color:#37D500;">
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="contactMe" id="contactMe">
+        <div class="contactContent center">
+            <a href="../../index.html">←</a>
+            </br>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
