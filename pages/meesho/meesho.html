@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nabeel Jawahir</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="../../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="meesho.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../myscript.js"></script>
+</head>
+
+
+
+
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../../index.html#portfolio" onclick="NavToggle(this)">Portfolio</a>
+            <a href="../../about.html">About</a>
+            <a href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a href="../../index.html#contactMe">Contact</a>
+        </div>
+    </div>
+
+    <!-- real navbar-->
+
+    <div id="navbar" class="nav pagePadding">
+        <div class="navLogo">
+            <a href="../../index.html"> <img src="../../favicon.png" alt=""> </a>
+            <!-- <img src="favicon.png" alt=""> -->
+
+        </div>
+        <div class="navLinks">
+            <a class="navLink" href="../../index.html#portfolio">Portfolio </a>
+            <a class="navLink" href="../../about.html">About</a>
+            <a class="navLink" href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a class="navLink" href="../../index.html#contactMe">Contact</a>
+        </div>
+
+        <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+    </div>
+
+    <div class="pageMargin">
+
+
+
+        <br><br><br><br><br>
+
+        <div class="row">
+            <div class="heading orange">Challenge</div>
+            <div class="text">Improving the catalog and product discovery through browsing of the Meesho app.
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Introduction</div>
+                <div class="text">
+                    The Meesho app provides the opportunity for individual resellers to sell products displayed on the Meesho app on WhatsApp, Facebook, Instagram and other social networks. The app mainly targets households making 30,000 rupees a month and people who want to make extra money on the side reselling fashion products.
+                    <br><br>
+                    The basic working of the Meesho app can be summerised by the flowchart below.
+                    <br><br>
+                    <img src="assets/userflow.png" style="height:70vh; width:auto;" class="hcenter" alt="">
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="UserPersona">
+            <div class="col">
+                <div class="heading">User Personas</div>
+                <div class="text">
+                    After doing some research on the target users, I was able to generalize the target users into the following persona and make some assumptions about the basic needs and frustrations.
+                    </br>
+                    </br>
+                    <img src="assets/persona.png" id="userpersona" class="imagerow" alt="userpersona">
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="1">
+            <h1 class="heading">At a first glance</h1>
+            <div class="text">
+                Visually, interface seems to be quite cluttered with the colorful banner, the carousel, the 2 banners below it and the colorful 3x3 category page. The carousel has at least a few items that are not going to be previewed by the user. Moreover, even on a 19.5:9 ratio phone, it takes more than one complete scroll to arrive at the first product.
+        </div>
+
+        <div class="row" id="2">
+            <h1 class="heading">Department and Categories</h1>
+            <div class="text">
+                Consider the following user scenario:
+                <br><br>
+                Sangeetha receives a message on her group from her friends:
+                <br>Friend 1 : I need a new bag for this wedding ocassion. Sangeetha, can you find something for us?
+                <br>Friend 2 : Yes, I’m going to the wedding too, I too will need a bag.
+                <br>Sangeetha opens the meesho app. Filter > Department > Woman, Category > Womens bag, Apply filter.
+                <br><br>
+                That was 6 clicks. Surely, that can be reduced:
+                <br><br>
+                Proposed solution :
+                <img src="assets/cate.png" class="fullimage" alt="">
+                <br><br>
+                Pro : Easier, Faster filtering of products. More categories to select from. Less space wasted.
+                <br>Cons : The more filter feature may be confusing to some users. (In that case, the second category filter may be removed for better clarity)
+                <br><br>
+                <span class="quote">
+                    <a href="https://www.nngroup.com/articles/ecommerce-homepages-listing-pages/">A study from published in the Nielson Norman group</a> stated that the most successful mergers of category and listing pages were those that highlighted available subcategories separately from other filters, most often above the product listings. This practice increased the discoverability of the subcategories and encouraged users to navigate to a more specific group of products to reduce the number of items listed and avoid choice overload.
+                </span>
+
+        </div>
+
+
+        <div class="row" id="3">
+            <h1 class="heading">Department and Categories</h1>
+            <div class="text">
+                Consider the following user scenario :
+                <br><br>
+                No one in Sangeetha’s whatsapp group is asking for anything, so she decides to casually browse the app, not looking for anything in particular. After scrolling for a long time, she doesn’t find anything. She wishes that there was a much simpler way for her to casually browse.
+
+                <br><br>
+                Proposed solution :
+                <img src="assets/depth.png" class="fullimage" alt="">
+                <br><br>
+                Pros : Adds extra depth to the browsing experience. See much more products with fewer scrolls.
+                <br>
+                Cons : Smaller pictures might have a smaller emotional response, The viewing experience may get crowded when using grids.
+                <br><br>
+                <span class="quote">
+                    <a href="https://www.nngroup.com/articles/ecommerce-shoppers/ ">A study from published in the Nielson Norman group</a> showed there are typically 5 types of ecommerce users, one of them being the browsing customer. Browsing customers want to see what’s new, what’s popular, and what’s on sale. When shoppers come to a site on a regular basis, it’s not to see the same information that they saw the week before. It’s to see what changed. They’re interested in the latest items, the latest deals, what other people are buying. Related items and suggested products help them navigate the site, leading to new areas or new products. Top-selling products, popular products, and top-ranked products can all attract browsing shoppers.
+                </span>
+
+                <br><br>
+                Although the above study is for buyers and not resellers, a similar comparison can be drawn for resellers, resellers who are not looking for a particular product but for something that will spark their or their customers interest.
+                <br><br>
+                We’ve already optimised for the product focused user by allowing for a faster filtering process.
+                <br><br>
+                It is not clear showing what section will elicit a better reaction from the user. Further testing must be done to figure out what sections to be shown and how much to be shown. However, one can start by assuming that sections that show different categories like “Jewellery for women” or “Kurtis for women” or “Kitchen utensils” will be preferred for casual browsing as it allows Sangeetha to explore a wider range of categories whereas sections like “Newest Arrivals” and “Best deals” will perform better for product focused browsing as Sangeetha can focus on getting the best deal and variety for a particular product she is looking for.
+        </div>
+
+        <div class="row" id="4">
+            <h1 class="heading">Improving visual indicators for offers</h1>
+            <div class="text">
+                The 39% off green visual indicator seems similar to WhatsApps share indicator. Moreover, it’s unclear which product the deal is for. Is it for the product above or below.
+
+                <br><br>
+                Proposed solution :
+                <img src="assets/deal.png" class="imagerow" alt="">
+
+                <br><br>
+                <span class="quote">
+                    <a href="https://www.nngroup.com/articles/visual-indicators-differentiators/">A study from published in the Nielson Norman group </a>Showed that on the mobile screens we tested, users were roughly 37% faster at finding items when visual indicators varied both in color and icon compared to text alone.
+                </span>
+                <br><br>
+                Pro : Easier identification of the discount.
+                <br>
+                Con : Smaller viewing window for the product.
+        </div>
+
+        <div class="row" id="5">
+            <h1 class="heading">Improving the VIP CLUB section</h1>
+            <div class="text">
+                The first banner that is displayed after the search bar is the Meesho VIP section. The aim of the banner is to promote users to resell by giving them a 10% discount on all items
+                 if the <a href="https://www.coredna.com/blogs/ecommerce-case-studies#3">Similar to the countdown affect on sales</a>, using a countdown for the number
+                 of orders left and the number of days left may result in the offer being taken more seriously.
+
+                <br><br>
+                Proposed solution :
+                <img src="assets/offer.png" class="imagerow" alt="">
+        </div>
+
+        <div class="row" id="5">
+            <h1 class="heading">Final Prototype</h1>
+            <div class="text">
+
+                <img src="assets/final.png" class="fullimage" alt="">
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+        <div class="divider fullimage" style="background-color:#ff1fdb;">
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <div class="contactMe" id="contactMe">
+        <div class="contactContent center">
+            <a href="../../index.html">←</a>
+            </br>
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
