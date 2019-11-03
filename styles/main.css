@@ -473,6 +473,12 @@ background-size: cover;
 
 
 
+.project05{
+    background-color: var(--stide-color);
+    background-image: url("../images/stidecover.png");
+    background-size:cover;
+}
+
 
 .project1{
     background-color: var(--p1-color);
