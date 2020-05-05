@@ -632,6 +632,15 @@ font-weight: 600;
 
 
 
+.projectContent:hover ~ .projectFrame{
+    transform: translateY(-20px);
+    
+}
+
+.projectFrame{
+    transition: ease 0.5s;
+}
+
 .contactContent a{
     display: table;
 
