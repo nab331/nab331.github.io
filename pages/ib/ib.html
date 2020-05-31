@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nabeel Jawahir</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="../../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="ib.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../myscript.js"></script>
+</head>
+
+
+
+
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="../../index.html#portfolio" onclick="NavToggle(this)">Portfolio</a>
+            <a href="../../about.html">About</a>
+            <a href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a href="../../index.html#contactMe">Contact</a>
+        </div>
+    </div>
+
+    <!-- real navbar-->
+
+    <div id="navbar" class="nav pagePadding">
+        <div class="navLogo">
+            <a href="../../index.html"> <img src="../../favicon.png" alt=""> </a>
+            <img src="favicon.png" alt="">
+
+        </div>
+        <div class="navLinks">
+            <a class="navLink" href="../../index.html#portfolio">Portfolio </a>
+            <a class="navLink" href="../../about.html">About</a>
+            <a class="navLink" href="https://drive.google.com/open?id=1qr8Vz5EcKwg-y05vaSm6FjRyvSqKOlbs">Resume</a>
+            <a class="navLink" href="../../index.html#contactMe">Contact</a>
+        </div>
+
+        <div id="hamburger" class="hamburger" onclick="NavToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+    </div>
+
+    <div class="pageMargin">
+
+
+        <br><br><br><br>
+        <div class="row">
+            <div class="heading orange">Challenge</div>
+            <div class="text">To design a platform that lets us manage queries/questions raised by
+different users about InterviewBit Academy efficiently so that our users get relevant
+answers/solutions on time.
+
+            </div>
+        </div>
+
+    
+
+       
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Research</div>
+                <div class="text">
+ 
+                    The main objective of my research phase was to answer the following questions : 
+                    <ul>
+                        <li>How do other companies/softwares tackle this problem?</li>
+                        <li>What are the factors that need to be focussed on to improve the speed at which issues can be resolved?</li>
+                        <li>What are the factors that need to be focused on to improve customer satisfaction?</li>
+                        <li>What tools/techniques can I use to automate parts of this process, incorporate feedback for continual improvement and reduce the load on the operations team.</li>
+                    </ul>
+
+
+                    <ul>
+                        <b>Here are my key findings from my research:</b>
+                        <li> <a href="https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/nielsen-case-study-complaints-reduction.pdf">Nelson Study</a> showed that complaints went down 30% by utilizing text analytics and identifying key themes.</li>
+                        <li>Softwares like ZenDesk use macros(pre-prepared responses) to respond quickly to customer requests</li>
+                        <li>Softwares like Salesforce have auto response rules that allow for automatic responses to questions that fit a particular theme.</li>
+                        <li>Sites like Google and LinkedIn give Auto-suggestions for messages and emails received, allowing for faster responses.’</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">User Personas</div>
+                <div class="text">
+                    I made a few assumptions based on the points raised in the problem statement and problems commonly faced by customer service representatives.
+                </div>
+                <img src="assets/persona.png" class="fullimage">
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Brainstorming solutions and approach.</div>
+                <div class="text">
+                   I tried to think of possible ways to deal with some of the pain points based on my initial research.
+                   <br><br>
+                    I wanted to have a clear idea on what I should prioritise while considering different solutions. The final solution must be one that prioritised speed and scanability over other factors.
+                    <br><br>
+
+                    <img src="assets/solutions.png" class="fullimage">
+                    <img src="assets/pyramid.png" class="fullimage">
+
+                    A Broad Userflow for Different Scenarios.
+                    <img src="assets/journey.png" class="fullimage">
+                    
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Design Decisions</div>
+                <div class="text">Some of the design decisions i took and why.</div>
+
+                <div class="subsection">
+                    <div class="heading">Categories from Keyword analytics and FAQs</div>
+                    <img src="assets/keyword.png" class="fullimage">
+                    <div class="text">
+                        Categorization helps with making the pre-recorded response work better and also makes the process of identifying tasks that need to be reassigned much faster.
+                    </div>
+
+                    <div class="heading">Sending an initial email to reduce the number of issues</div>
+                    <div class="text">
+                        <img src="assets/email.png" class="fullimage">
+                        The e-mail can help reduce the number of tickets generated by reducing straightforward queries.
+                    </div>
+
+                    <div class="heading">Auto Assigning</div>
+                    <div class="text">
+                        <img src="assets/assign.png" class="fullimage">
+                        Auto-assigning issues as opposed to picking up issues one by one as auto assigning prioritizes speed. However, if one member is not available on a particular day, it may result in extra complexities to go to settings and deactivate the member for the day.
+                    </div>
+
+                    <div class="heading">Auto-assigning unassigned tasks</div>
+                    <div class="text">
+                        <img src="assets/reassign.png" class="fullimage">
+                         If a member is too occupied with a certain task and he can't finish it, he can un-assign it himself and the issue will be shifted to a member with the least amount of tasks. 
+                         
+                    </div>
+
+                    <div class="heading">Fullscreen vs Splitscreen</div>
+                    <div class="text">
+                        <img src="assets/layouts.png" class="fullimage">
+                         A split screen allows for a much faster response and resolution time in exchange for viewing a lesser amount of issues per screen.
+                         <br><br>
+                         Other decisions like not making the filters sticky have been made considering the frequency of use of such filters.
+                    </div>
+
+                </div>
+                    
+                </div>
+            
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Site Mapping</div>
+                <div class="text">
+                    Once I had a good idea on the approach I was going to take, i created a sitemap to for proper information heirarchy. 
+                </div>
+                <img src="assets/sitemap.png" class="fullimage">
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="heading">Hi-Fiedelity Wireframes</div>
+                <div class="text">After a few rounds of sketching, I came up with the following designs</div>
+
+                <div class="subsection">
+                    <div class="heading">Issues</div>
+                    
+                    <div class="text">
+                        Assign Priorities, Tasks, and filter by various metrics.
+                        <img src="assets/tickets.png" class="fullimage" style="padding:10%;">
+                        
+                    </div>
+
+                    <div class="heading">Responses</div>
+                    <div class="text">
+                        Pre-record responses for common email themes and combine it with intelligent text suggestion to allow for faster responses.
+                        <img src="assets/responses.png" class="fullimage" style="padding:10%;">
+                        
+                    </div>
+
+                    <div class="heading">Dashboard</div>
+                    <div class="text">
+                        Understand what responses are doing well and what areas need the most improvement.
+                        <img src="assets/dashboard.png" class="fullimage" style="padding:10%;">
+                        
+                        <br><br><br><br>
+                    </div>
+
+                    
+
+                </div>
+                    
+                </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+        
+
+
+
+
+       
+
+        </div>
+
+
+
+        
+
+
+
+
+
+
+
+            
+
+
+
+        </div>
+
+
+        
+    </div>
+</div>
+</div>
+    
+   
+
+
+</body>
+</html>
